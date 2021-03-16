@@ -110,12 +110,34 @@ background  {
 
 .centered-body  {
     font-family: 'Space Mono', monospace;
-    font-style: italic;
+    font-style: normal;
     font-weight: normal;
     color: black;
     font-size: 12px;
     line-height: auto;
     text-align: justify;
+}
+
+.centered-body-large    {
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 57px;
+    letter-spacing: -6px;
+    line-height: auto;
+    text-align: justify;
+}
+
+.centered-large-title  {
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 70px;
+    letter-spacing: -6px;
+    line-height: auto;
+    text-align: center;
 }
 
 .link-paragraph-container   {
@@ -646,6 +668,14 @@ font-display:auto;font-style:normal;font-weight:700;
 .tk-poppins { font-family: "poppins",sans-serif; }
 .tk-monotalic { font-family: "monotalic",sans-serif; }
 .tk-covik-sans { font-family: "covik-sans",sans-serif; }
+
+@font-face {
+    font-family: "self_modernregular";
+    src: url("https://github.com/nhu777/library/blob/main/Self%20Modern%20WebKit/self_modern-webfont.woff") format("woff"),
+    src: url("https://github.com/nhu777/library/blob/main/Self%20Modern%20WebKit/self_modern-webfont.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
 
 @keyframes colorize {
     0% {
