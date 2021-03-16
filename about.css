@@ -5,21 +5,6 @@ html {
 
 body {
     margin: 0 auto;
-    margin-bottom: 100px;
-    padding: 0 !important;
-    background: #F6F6F6;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
-    font-family: covik-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 1.5;
-    padding: 2em 2em 4em;
-}
-
-body-about  {
-    margin: 0 auto;
     height: 100vh;
     width: 100vw;
     padding: 0 !important;
@@ -31,7 +16,7 @@ body-about  {
     font-size: 12px;
     line-height: 1.5;
     padding: 2em 2em 4em;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 a:link   {
@@ -66,24 +51,7 @@ background  {
     left: -3px;
 }
 
-.top-right   {
-    position: fixed;
-    top: 0px;
-    right: -2px;
-}
-
-.top-left    {
-    position: fixed;
-    top: 0px;
-    left: -3px;
-}
-
 .books-grid  {
-    margin: auto;
-    width: 70%;
-}
-
-.large-center-container   {
     margin: auto;
     width: 70%;
 }
@@ -131,11 +99,6 @@ background  {
 .spacing-small {
     margin-bottom: 30px;
     width: 40%;
-}
-
-.spacing-big {
-    margin-bottom: 30px;
-    width: 70%;
 }
 
 @font-face {
@@ -251,20 +214,6 @@ img {
     position: fixed;
     top: 50%;
     width: 200px;
-}
-
-.fixed-critiques    {
-    z-index: 999999;
-    position: -webkit-fixed;
-    position: fixed;
-    top: 20%;
-    right: 0%;
-    width: 400px;
-}
-
-.fixed-critiques:hover  {
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
 }
 
 .fixed-about:hover  {
